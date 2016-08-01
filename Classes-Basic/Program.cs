@@ -1,0 +1,23 @@
+﻿
+
+using System;
+using Classes_basic.Maths;
+
+namespace Classes_basic
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            var john = new Person();
+            john.FirstName = "John";
+            john.LastName = "Kelly";
+            john.Introduce();
+            Calculator calculator = new Calculator();
+            var result = calculator.Add(1, 2);
+           
+            Console.WriteLine(result);
+
+        }
+    }
+}
