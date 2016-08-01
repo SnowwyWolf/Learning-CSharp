@@ -11,7 +11,7 @@ namespace Variables
             int count = 10;
             float totalPrice = 20.95f;
             char character = 'A';
-            string firstName = "Danny";
+            string firstName = "Jake";
             bool isWorking = false;
 
             Console.WriteLine(number);
